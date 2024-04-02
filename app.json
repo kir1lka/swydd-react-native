@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "swydd",
+    "slug": "swydd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+      }
+    }
+    
+  }
+}
