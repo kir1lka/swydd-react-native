@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "icon":"./assets/images/icon.png",
+    "icon": "./assets/images/icon.png",
     "splash": {
       "resizeMode": "contain"
     },
@@ -18,14 +18,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage":"./assets/images/icon.png",
-        "backgroundColor":"#ffffff"
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
       },
       "package": "com.kirilka.swydd"
     },
     "extra": {
       "eas": {
-        "projectId": "27c27ac2-2ce9-4ace-80b7-6b2e1c9f4bab"
+        "projectId": "6df16a6c-0f9f-47ce-8274-885b7467b8c8"
       }
     }
   }
