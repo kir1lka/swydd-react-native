@@ -65,7 +65,7 @@ function FilterScreen({ route }) {
   ];
   const listTags = [
     "Программист ",
-    "Frontent ",
+    "Frontend ",
     "Подработка ",
     "Python ",
     "React ",

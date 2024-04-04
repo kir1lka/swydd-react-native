@@ -26,6 +26,11 @@ import AppNavigate from "./src/navigation/AppNavigate";
 import TabNavigation from "./src/navigation/TabNavigation";
 import Toast, { BaseToast, ErrorToast } from "react-native-toast-message";
 import { COLORS } from "./src/constants/color";
+import * as Sentry from "@sentry/react-native";
+
+Sentry.init({
+  dsn: "https://c30b91118d4fac1c3fca8b9c72362bf3@o4507028053426176.ingest.us.sentry.io/4507028054999045",
+});
 
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
