@@ -259,6 +259,10 @@ function MainTabNavigation() {
           fontSize: 11,
           fontFamily: "MontserratBold",
         },
+        tabBarStyle: {
+          height: 60,
+          paddingBottom: 10,
+        },
         // tabBarBackground: () => (
         //   <BlurView
         //     overlayColor=""
