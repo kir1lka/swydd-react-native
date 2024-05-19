@@ -183,7 +183,7 @@ function CreateResumeScreen() {
           valueField="label"
           placeholder={
             !isFocus && !nationality
-              ? "Выберите образование"
+              ? "Выберите гражданство"
               : nationality
               ? nationality
               : "..."
@@ -224,7 +224,7 @@ function CreateResumeScreen() {
           valueField="label"
           placeholder={
             !isFocus && !experience
-              ? "Выберите образование"
+              ? "Выберите опыт работы"
               : experience
               ? experience
               : "..."

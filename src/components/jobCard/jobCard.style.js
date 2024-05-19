@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
     fontFamily: "PoppinsText",
     fontSize: 14,
     textAlign: "center",
+    width: 120,
   },
 
   //favorite icons

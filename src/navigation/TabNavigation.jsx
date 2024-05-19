@@ -7,6 +7,7 @@ import {
   ScrollView,
   SafeAreaView,
   TouchableOpacity,
+  Platform,
 } from "react-native";
 
 //drawer
@@ -247,6 +248,14 @@ function ResponseStack() {
 }
 
 function MainTabNavigation() {
+  const tabBarStyle =
+    Platform.OS !== "ios"
+      ? {
+          height: 60,
+          paddingBottom: 10,
+        }
+      : {};
+
   return (
     <Tab.Navigator
       initialRouteName="HomeStack"
@@ -259,23 +268,7 @@ function MainTabNavigation() {
           fontSize: 11,
           fontFamily: "MontserratBold",
         },
-        tabBarStyle: {
-          height: 60,
-          paddingBottom: 10,
-        },
-        // tabBarBackground: () => (
-        //   <BlurView
-        //     overlayColor=""
-        //     blurAmount={15}
-        //     style={{
-        //       position: "absolute",
-        //       left: 0,
-        //       right: 0,
-        //       top: 0,
-        //       bottom: 0,
-        //     }}
-        //   />
-        // ),
+        tabBarStyle,
       }}
     >
       <Tab.Screen
